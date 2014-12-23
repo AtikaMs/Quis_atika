@@ -1,0 +1,21 @@
+#include <stdio.h>
+main(){
+    int x=3, i=0, idx, true, false, ketemu, j=9, a[2][5]={4,5,8,1,2,3,11,23,10,13};
+    ketemu=false;
+    for(i=0; i<2; i++){
+    for (j=0; j<5; i++){
+    if(a[i]==x){
+    if(a[j]==x){
+    ketemu=true;
+    }
+    }
+    }
+    if(a[i][j]==x){
+    idx =a[i][j];
+    printf("Nilai x Berada pada index ke %d",idx);
+    }
+    else {
+    printf("Nilai x tidak berada pada larik A");
+    }
+}
+}
